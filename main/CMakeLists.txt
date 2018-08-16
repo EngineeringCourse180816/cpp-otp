@@ -1,4 +1,4 @@
-set(Main_SRCS main.cpp AuthenticationService.cpp AuthenticationService.h ProfileDao.cpp ProfileDao.h RsaTokenDao.cpp RsaTokenDao.h Context.cpp Context.h)
+set(Main_SRCS main.cpp AuthenticationService.cpp AuthenticationService.h ProfileDao.cpp ProfileDao.h RsaTokenDao.cpp RsaTokenDao.h Context.cpp Context.h Logger.h)
 
 add_library(core ${Main_SRCS})
 add_executable(${CMAKE_PROJECT_NAME} main.cpp)
